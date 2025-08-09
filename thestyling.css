@@ -1,21 +1,24 @@
-body {margin:0;font-family:Arial}
+
+
+body {margin:0;padding:0;
+  font-family:Arial}
 
 
 
 .topnav {
-  overflow: absolute;
+  display: flex;
+  overflow: visible;
   background-color: rgb(133, 59, 172);
-  
-  float: left;
   color: #f2f2f2;
   text-align: left;
   width: 100%;
  text-align: left;
-
   text-decoration: none;
   align-items: left;
-}
 
+}
+/* float: left; komisch: es geht mit bei start, aber nicht bei social media
+ */
 
 
 .active {
@@ -27,7 +30,7 @@ body {margin:0;font-family:Arial}
 
 
 .dropbtn {
-  background-color: purple;
+  background-color: rgb(133, 59, 172);
   color: white;
   padding: 16px;
   font-size: 16px;
