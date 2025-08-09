@@ -34,7 +34,7 @@ document.writeln('</div>');
 document.writeln('<div class="dropdown">');
 document.writeln('<button class="dropbtn" onclick="location.href=\'mysocialmedia.html\'">my social media</button>');
 document.writeln('<div class="dropdown-content">');
-document.writeln('<a href="https://facebook.com/immanuel.vandriem">facebook</a>');
+document.writeln('<a href="">none</a>');
 document.writeln('</div>');
 document.writeln('</div>');
 
@@ -51,7 +51,7 @@ document.writeln('<div class="dropdown">');
 document.writeln('<button class="dropbtn" onclick="location.href=\'brotbacken.html\'">baking</button>');
 document.writeln('<div class="dropdown-content">');
 document.writeln('<a href="https://immanuelvandriem.wixsite.com/baking">bread-wix-site</a>');
-document.writeln('">sss</a>');
+document.writeln('(on baking bread...)');
 document.writeln('</div>');
 document.writeln('</div>');
 
@@ -59,7 +59,7 @@ document.writeln('</div>');
 document.writeln('<div class="dropdown">');
 document.writeln('<button class="dropbtn" onclick="location.href=\'log.html\'">log</button>');
 document.writeln('<div class="dropdown-content">');
-document.writeln('<a href="aboutlog.html">"gg"-about log</a>');
+document.writeln('<a href="aboutlog.html">about log</a>');
 document.writeln('</div>');
 document.writeln('</div>');
 
@@ -67,7 +67,7 @@ document.writeln('</div>');
 document.writeln('<div class="dropdown">');
 document.writeln('<button class="dropbtn" onclick="location.href=\'grammatik.html\'">grammatik</button>');
 document.writeln('<div class="dropdown-content">');
-document.writeln('<a href="https://google.de">google</a>');
+document.writeln('<a href="https://googletranslate.com">google translate</a>');
 document.writeln('</div>');
 document.writeln('</div>');
 
