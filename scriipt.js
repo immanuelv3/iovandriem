@@ -22,13 +22,15 @@ document.writeln('</div>');
 document.writeln('<div class="dropdown">');
 document.writeln('<button class="dropbtn" onclick="location.href=\'/med/medicinestart.html\'">medicine</button>');
 document.writeln('<div class="dropdown-content">');
+document.writeln('<a href="/med/sibo.html">sibo</a>');
+document.writeln('<a href="/med/sibo-hit.html">hit</a>');
+
 document.writeln('<a href="/med/stressandcortisol.html">stress</a>');
 document.writeln('<div class="dropdown-content">');
 document.writeln('<a href="hypo.html">hypothyroidism</a>');
 document.writeln('<div class="dropdown-content">');
-document.writeln('<a href="/med/sibo.html">sibo</a>');
+
 document.writeln('<div class="dropdown-content">');
-document.writeln('<a href="/med/sibo-hit.html">hit</a>');
 //document.writeln('<div class="dropdown-content">');
 //document.writeln('<a href="microbiome.html">microbiome</a>');
 //document.writeln('<div class="dropdown-content">');
@@ -93,6 +95,11 @@ document.writeln('<a href="-">-</a>');
 document.writeln('</div>'); */
 document.writeln('</div>');
 
+//blog
+document.writeln('<div class="dropdown">');
+
+document.writeln('<button class="dropbtn" onclick="location.href=\'/blogreal.html\'">blog</button>');
+document.writeln('</div>');
 
 
 // Add this to a JS file or a <script> tag
