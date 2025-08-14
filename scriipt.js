@@ -105,6 +105,11 @@ document.writeln('<div class="dropdown">');
 document.writeln('<button class="dropbtn" onclick="location.href=\'/blogreal.html\'">blog</button>');
 document.writeln('</div>');
 
+//contact
+document.writeln('<div class="dropdown">');
+document.writeln('<button class="dropbtn" onclick="location.href=\'/contact.html\'">contact</button>');
+document.writeln('</div>');
+
 
 // Add this to a JS file or a <script> tag
 document.addEventListener('DOMContentLoaded', function() {
