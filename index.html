@@ -21,6 +21,13 @@
       <hr>
     <h1> Welcome to my homepage! </h1>
     <pre style="padding-left: 20px; font-style: italic; font-size: large;">- Immanuel Orfeo van Driem</pre>
+
+    <?php
+date_default_timezone_set("Europe/Amsterdam");
+echo "The time is " . date("h:i:sa - ");        
+echo "";
+echo "The date is " . date ("jS-M-y");
+?>
 <hr>
 </div>
 
@@ -33,11 +40,6 @@
 <div style="padding-left: 14px;"> 
 </div>
 
-<?php
-date_default_timezone_set("Europe/Amsterdam");
-echo "The time is " . date("h:i:sa - ");        
-echo "";
-echo "The date is " . date ("jS-M-y");
-?>
+
 </body>
 </html>

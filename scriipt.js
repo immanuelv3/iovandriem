@@ -72,13 +72,17 @@ document.writeln('</div>');
 
 // baking dropdown
 document.writeln('<div class="dropdown">');
-document.writeln('<button class="dropbtn" onclick="location.href=\'/kulinarik/brotbacken.html\'">baking</button>');
-/*document.writeln('<div class="dropdown-content">');
-document.writeln('<a href="https://immanuelvandriem.wixsite.com/baking">bread-wix-site</a>');
-document.writeln('(on baking bread...)');
-document.writeln('</div>');*/
+document.writeln('<button class="dropbtn" onclick="location.href=\'/kulinarik/einfuehrung.html\'">Brot backen</button>');
+document.writeln('<div class="dropdown-content">');
+document.writeln('<a href="/kulinarik/brotbacken.html">Do´s & Dont´s</a>');
+document.writeln('<a href="/kulinarik/brotbacku.html">brotbackzubehör</a>');
+document.writeln('<a href="/kulinarik/brotrezepte1.html">Rezepte</a>');
+document.writeln('<a href="/kulinarik/sweetbaking.html">Sweet baking</a>');
+document.writeln('<a href="/xxxxx.html">magie des brotbackens</a>');
+// document.writeln('(on baking bread...)');
 document.writeln('</div>');
-
+document.writeln('</div>');
+// 
 // log
 document.writeln('<div class="dropdown">');
 document.writeln('<button class="dropbtn" onclick="location.href=\'/log.html\'">log</button>');
