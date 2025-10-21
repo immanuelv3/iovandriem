@@ -1,6 +1,6 @@
 // Start dropdown
 document.writeln('<div class="dropdown">');
-document.writeln('<button class="dropbtn" onclick="location.href=\'/index.html\'">start</button>');
+document.writeln('<button class="dropbtn" onclick="location.href=\'/index.php\'">start</button>');
 /* document.writeln('<div class="dropdown-content">');
 document.writeln('<a href="https://yahoo.de">yahoo</a>');
 document.writeln('</div>'); */
